@@ -35,14 +35,14 @@ td {
     width: 20px;
 }
 
-/* hover over cell shadow effect */
+/* Hover over cell shadow effect */
 td:hover {
-         box-shadow:
-                 1px 1px #4d4d4d,
-                 2px 2px #4d4d4d,
-                 3px 3px #4d4d4d;
-         -webkit-transform: translateX(-1px);
-         transform: translateX(-1px);
+    box-shadow:
+        1px 1px #4d4d4d,
+        2px 2px #4d4d4d,
+        3px 3px #4d4d4d;
+    -webkit-transform: translateX(-1px);
+    transform: translateX(-1px);
 }
 
 input[type=number] {
@@ -50,5 +50,7 @@ input[type=number] {
 }
 
 button {
-       margin: 3px;
+    margin: 3px;
 }
+
+/* td:hover snippet from https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ */
