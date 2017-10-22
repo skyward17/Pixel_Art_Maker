@@ -1,0 +1,21 @@
+Geoff (master) project-pixel-art-maker-starter-master $ git log --oneline
+84e5d4e (HEAD -> master) refactor: Placed colorSelect var inside of change color section of makeGrid()
+9583ddc feat: Added :hover shadow to td
+fd66700 refactor: Added colorSelect variable under makeGrid() to cells loop inplace of test "Orange"
+deddf34 chore: Cleaned up white space and obsolete comment and test code sections
+1799c67 feat: Added For Loop to makeGrid()
+8eb4293 feat: button-margin added to css
+07a02ec refactor: Added <h2> tag to Clear Canvas Button
+854bfd7 refactor: Moved Clear Grid button to Table Selection Area refactor: Removed <section> for Clear Grid button
+9234ce5 refactor: Refactored clearCanvas() adding while loop
+a833756 refactor: Removed old makeGrid() function refactor: Added Grid Selections to new makeGrid() function
+99ad4f9 refactor: Removed makeGrid() function from Grid Size Section refactor: Removed button from Grid Size Section
+08ec6cf feat: Created id and element for buildTr in the designCanvas() Function test: Removed two console.log() tests from the for loops in designCanvas
+5415f10 feat:  Created clearCanvas() function for clearing the table
+e787553 feat: Created designCanvas() function for creating DOM tr and td structures
+383198b feat: Created submitColor() function for storing user input for Color
+4e0443b feat: Created makeGrid() function for storing user input for Dimensions
+5c9e56b Initial Commit
+4f90b24 feat: Changed button for Grid Size Select to type ="Button" to prevent page reloading
+a58b8a5 Initial commit of all files
+Geoff (master) project-pixel-art-maker-starter-master $
