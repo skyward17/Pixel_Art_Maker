@@ -1,5 +1,9 @@
 Geoff (master) project-pixel-art-maker-starter-master $ git log --oneline
-84e5d4e (HEAD -> master) refactor: Placed colorSelect var inside of change color section of makeGrid()
+e74e063 (HEAD -> master) feat: Added disabled attribute to Clear Canvas button
+5546509 feat: Added disabled attribute to makeGrid() feat: Added disabled attribute to clearGrid()
+dc7c6f2 refactor: added ids Create Grid and Clear Grid buttons
+ee30088 style: Cleaned up white space and spacing
+84e5d4e refactor: Placed colorSelect var inside of change color section of makeGrid()
 9583ddc feat: Added :hover shadow to td
 fd66700 refactor: Added colorSelect variable under makeGrid() to cells loop inplace of test "Orange"
 deddf34 chore: Cleaned up white space and obsolete comment and test code sections
@@ -18,4 +22,3 @@ e787553 feat: Created designCanvas() function for creating DOM tr and td structu
 5c9e56b Initial Commit
 4f90b24 feat: Changed button for Grid Size Select to type ="Button" to prevent page reloading
 a58b8a5 Initial commit of all files
-Geoff (master) project-pixel-art-maker-starter-master $

@@ -1,6 +1,7 @@
 // Creates the grid based on user inputs for Grid height and width
 function makeGrid() {
-    // Select size inputs for grid
+    document.getElementById("mkeGrdBtn").disabled = true; // Disables Create Grid Button
+    document.getElementById("clrGrdBtn").disabled = false;
     let heightSelect = document.getElementById("input_height").value;
     let widthSelect = document.getElementById("input_width").value;
     // Loops adding tr and td based on user inputs from heightSelect and widthSelect
@@ -26,6 +27,8 @@ function makeGrid() {
 
 // Clears out Pixel Drawing
 function clearCanvas() {
+    document.getElementById("mkeGrdBtn").disabled = false; // Enables Create Grid Button
+    document.getElementById("clrGrdBtn").disabled = true;
     const pixCan = document.getElementById("pixel_canvas");  // Parent Node
         while (pixCan.firstChild) {
             pixCan.removeChild(pixCan.firstChild);  // Selects the first child in the Parent Node and removes it.
