@@ -1,5 +1,6 @@
-Geoff (master) project-pixel-art-maker-starter-master $ git log --oneline
-e74e063 (HEAD -> master) feat: Added disabled attribute to Clear Canvas button
+db31b56 (HEAD -> master) refactor: Added a max of 50 to height and width
+630d2d8 refactor: Moved user_input for height and width variables out of makeGrid() into Global Scope
+e74e063 feat: Added disabled attribute to Clear Canvas button
 5546509 feat: Added disabled attribute to makeGrid() feat: Added disabled attribute to clearGrid()
 dc7c6f2 refactor: added ids Create Grid and Clear Grid buttons
 ee30088 style: Cleaned up white space and spacing
